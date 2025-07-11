@@ -238,3 +238,41 @@ nav button {
     color: #000000;
 }
 
+/* FORM SECTION  */
+form {
+    width: 45%;
+    height: 80%;
+}
+
+input,
+textarea {
+    width: 90%;
+    padding: 5%;
+    border: none;
+    border: 1px solid #D6DDED;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+input::placeholder , textarea::placeholder{
+    color: hsla(0, 0%, 0%, 0.50);
+    font-weight: normal;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 25px;
+}
+
+form .btn {
+    width: 100%;
+    height: 62px;
+    font-size: 20px;
+}
+
+

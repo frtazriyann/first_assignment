@@ -154,3 +154,87 @@ nav button {
     color: hsla(0, 0%, 0%, 0.50);
 }
 
+/* USERS FEEDBACK SECTION */
+.feedback {
+    height: 55%;
+    width: 1000px;
+    margin: 130px auto;
+}
+
+.feedback span {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 45px;
+    color: #252432;
+}
+
+.cardContainer {
+    width: 100%;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 14px;
+    width: 356px;
+    height: 220px;
+    font-family: 'Times New Roman';
+    background-color: hsla(0, 0%, 100%, 0.50);
+}
+
+.card img {
+    width: 20px;
+    margin-top: 24px;
+}
+
+.card img:first-child {
+    margin-left: 24px;
+}
+
+.reviewerDiv img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 8px 0 24px;
+}
+
+.card h1 {
+    margin: 20px 0 8px 24px;
+}
+
+.card p {
+    margin-bottom: 24px;
+    margin-left: 24px;
+}
+
+.reviewerTxt h4 {
+    color: hsla(244, 16%, 17%, 0.80);
+}
+
+.reviewerTxt h5 {
+    color: hsla(244, 16%, 17%, 0.60);
+    font-family: Arial;
+}
+
+.form {
+    width: 65%;
+    height: 80%;
+    height: 580px;
+    margin: 90px auto 90px auto;
+    justify-content: space-between;
+    align-items: start;
+    gap: 25px;
+}
+
+.touchDiv {
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.touchDiv h1 {
+    font-size: 60px;
+    color: #000000;
+}
+
